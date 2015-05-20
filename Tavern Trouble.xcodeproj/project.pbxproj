@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E75CDA451B0D177D001DA0E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CDA441B0D177D001DA0E5 /* AppDelegate.swift */; };
+		E75CDA471B0D177D001DA0E5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E75CDA461B0D177D001DA0E5 /* GameScene.sks */; };
+		E75CDA491B0D177D001DA0E5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CDA481B0D177D001DA0E5 /* GameScene.swift */; };
+		E75CDA4B1B0D177D001DA0E5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CDA4A1B0D177D001DA0E5 /* GameViewController.swift */; };
+		E75CDA4E1B0D177D001DA0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75CDA4C1B0D177D001DA0E5 /* Main.storyboard */; };
+		E75CDA501B0D177D001DA0E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75CDA4F1B0D177D001DA0E5 /* Images.xcassets */; };
+		E75CDA531B0D177D001DA0E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75CDA511B0D177D001DA0E5 /* LaunchScreen.xib */; };
+		E75CDA5F1B0D177D001DA0E5 /* Tavern_TroubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CDA5E1B0D177D001DA0E5 /* Tavern_TroubleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E75CDA591B0D177D001DA0E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E75CDA371B0D177D001DA0E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E75CDA3E1B0D177D001DA0E5;
+			remoteInfo = "Tavern Trouble";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E75CDA3F1B0D177D001DA0E5 /* Tavern Trouble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tavern Trouble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75CDA431B0D177D001DA0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75CDA441B0D177D001DA0E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E75CDA461B0D177D001DA0E5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E75CDA481B0D177D001DA0E5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E75CDA4A1B0D177D001DA0E5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E75CDA4D1B0D177D001DA0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E75CDA4F1B0D177D001DA0E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E75CDA521B0D177D001DA0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E75CDA581B0D177D001DA0E5 /* Tavern TroubleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tavern TroubleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75CDA5D1B0D177D001DA0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75CDA5E1B0D177D001DA0E5 /* Tavern_TroubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tavern_TroubleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E75CDA3C1B0D177D001DA0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75CDA551B0D177D001DA0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E75CDA361B0D177D001DA0E5 = {
+			isa = PBXGroup;
+			children = (
+				E75CDA411B0D177D001DA0E5 /* Tavern Trouble */,
+				E75CDA5B1B0D177D001DA0E5 /* Tavern TroubleTests */,
+				E75CDA401B0D177D001DA0E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E75CDA401B0D177D001DA0E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75CDA3F1B0D177D001DA0E5 /* Tavern Trouble.app */,
+				E75CDA581B0D177D001DA0E5 /* Tavern TroubleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E75CDA411B0D177D001DA0E5 /* Tavern Trouble */ = {
+			isa = PBXGroup;
+			children = (
+				E75CDA441B0D177D001DA0E5 /* AppDelegate.swift */,
+				E75CDA461B0D177D001DA0E5 /* GameScene.sks */,
+				E75CDA481B0D177D001DA0E5 /* GameScene.swift */,
+				E75CDA4A1B0D177D001DA0E5 /* GameViewController.swift */,
+				E75CDA4C1B0D177D001DA0E5 /* Main.storyboard */,
+				E75CDA4F1B0D177D001DA0E5 /* Images.xcassets */,
+				E75CDA511B0D177D001DA0E5 /* LaunchScreen.xib */,
+				E75CDA421B0D177D001DA0E5 /* Supporting Files */,
+			);
+			path = "Tavern Trouble";
+			sourceTree = "<group>";
+		};
+		E75CDA421B0D177D001DA0E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75CDA431B0D177D001DA0E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E75CDA5B1B0D177D001DA0E5 /* Tavern TroubleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E75CDA5E1B0D177D001DA0E5 /* Tavern_TroubleTests.swift */,
+				E75CDA5C1B0D177D001DA0E5 /* Supporting Files */,
+			);
+			path = "Tavern TroubleTests";
+			sourceTree = "<group>";
+		};
+		E75CDA5C1B0D177D001DA0E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75CDA5D1B0D177D001DA0E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E75CDA3E1B0D177D001DA0E5 /* Tavern Trouble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75CDA621B0D177D001DA0E5 /* Build configuration list for PBXNativeTarget "Tavern Trouble" */;
+			buildPhases = (
+				E75CDA3B1B0D177D001DA0E5 /* Sources */,
+				E75CDA3C1B0D177D001DA0E5 /* Frameworks */,
+				E75CDA3D1B0D177D001DA0E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tavern Trouble";
+			productName = "Tavern Trouble";
+			productReference = E75CDA3F1B0D177D001DA0E5 /* Tavern Trouble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E75CDA571B0D177D001DA0E5 /* Tavern TroubleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75CDA651B0D177D001DA0E5 /* Build configuration list for PBXNativeTarget "Tavern TroubleTests" */;
+			buildPhases = (
+				E75CDA541B0D177D001DA0E5 /* Sources */,
+				E75CDA551B0D177D001DA0E5 /* Frameworks */,
+				E75CDA561B0D177D001DA0E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E75CDA5A1B0D177D001DA0E5 /* PBXTargetDependency */,
+			);
+			name = "Tavern TroubleTests";
+			productName = "Tavern TroubleTests";
+			productReference = E75CDA581B0D177D001DA0E5 /* Tavern TroubleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E75CDA371B0D177D001DA0E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jake Stephens";
+				TargetAttributes = {
+					E75CDA3E1B0D177D001DA0E5 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					E75CDA571B0D177D001DA0E5 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = E75CDA3E1B0D177D001DA0E5;
+					};
+				};
+			};
+			buildConfigurationList = E75CDA3A1B0D177D001DA0E5 /* Build configuration list for PBXProject "Tavern Trouble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E75CDA361B0D177D001DA0E5;
+			productRefGroup = E75CDA401B0D177D001DA0E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E75CDA3E1B0D177D001DA0E5 /* Tavern Trouble */,
+				E75CDA571B0D177D001DA0E5 /* Tavern TroubleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E75CDA3D1B0D177D001DA0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75CDA531B0D177D001DA0E5 /* LaunchScreen.xib in Resources */,
+				E75CDA501B0D177D001DA0E5 /* Images.xcassets in Resources */,
+				E75CDA471B0D177D001DA0E5 /* GameScene.sks in Resources */,
+				E75CDA4E1B0D177D001DA0E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75CDA561B0D177D001DA0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E75CDA3B1B0D177D001DA0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75CDA491B0D177D001DA0E5 /* GameScene.swift in Sources */,
+				E75CDA4B1B0D177D001DA0E5 /* GameViewController.swift in Sources */,
+				E75CDA451B0D177D001DA0E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75CDA541B0D177D001DA0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75CDA5F1B0D177D001DA0E5 /* Tavern_TroubleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E75CDA5A1B0D177D001DA0E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E75CDA3E1B0D177D001DA0E5 /* Tavern Trouble */;
+			targetProxy = E75CDA591B0D177D001DA0E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E75CDA4C1B0D177D001DA0E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75CDA4D1B0D177D001DA0E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E75CDA511B0D177D001DA0E5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75CDA521B0D177D001DA0E5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E75CDA601B0D177D001DA0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E75CDA611B0D177D001DA0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E75CDA631B0D177D001DA0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tavern Trouble/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E75CDA641B0D177D001DA0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tavern Trouble/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E75CDA661B0D177D001DA0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tavern TroubleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tavern Trouble.app/Tavern Trouble";
+			};
+			name = Debug;
+		};
+		E75CDA671B0D177D001DA0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tavern TroubleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tavern Trouble.app/Tavern Trouble";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E75CDA3A1B0D177D001DA0E5 /* Build configuration list for PBXProject "Tavern Trouble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75CDA601B0D177D001DA0E5 /* Debug */,
+				E75CDA611B0D177D001DA0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75CDA621B0D177D001DA0E5 /* Build configuration list for PBXNativeTarget "Tavern Trouble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75CDA631B0D177D001DA0E5 /* Debug */,
+				E75CDA641B0D177D001DA0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E75CDA651B0D177D001DA0E5 /* Build configuration list for PBXNativeTarget "Tavern TroubleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75CDA661B0D177D001DA0E5 /* Debug */,
+				E75CDA671B0D177D001DA0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E75CDA371B0D177D001DA0E5 /* Project object */;
+}
