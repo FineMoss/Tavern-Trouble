@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E741FAA91B3762B600048DDF /* RulesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E741FAA81B3762B600048DDF /* RulesScene.swift */; };
 		E75CDA451B0D177D001DA0E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CDA441B0D177D001DA0E5 /* AppDelegate.swift */; };
 		E75CDA471B0D177D001DA0E5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E75CDA461B0D177D001DA0E5 /* GameScene.sks */; };
 		E75CDA491B0D177D001DA0E5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CDA481B0D177D001DA0E5 /* GameScene.swift */; };
@@ -15,6 +16,8 @@
 		E75CDA501B0D177D001DA0E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75CDA4F1B0D177D001DA0E5 /* Images.xcassets */; };
 		E75CDA531B0D177D001DA0E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75CDA511B0D177D001DA0E5 /* LaunchScreen.xib */; };
 		E75CDA5F1B0D177D001DA0E5 /* Tavern_TroubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CDA5E1B0D177D001DA0E5 /* Tavern_TroubleTests.swift */; };
+		E75CDA691B0D256B001DA0E5 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CDA681B0D256B001DA0E5 /* MainMenu.swift */; };
+		E77CD9E21B35CDC800A4503C /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77CD9E11B35CDC800A4503C /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E741FAA81B3762B600048DDF /* RulesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesScene.swift; sourceTree = "<group>"; };
 		E75CDA3F1B0D177D001DA0E5 /* Tavern Trouble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tavern Trouble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75CDA431B0D177D001DA0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E75CDA441B0D177D001DA0E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		E75CDA581B0D177D001DA0E5 /* Tavern TroubleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tavern TroubleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75CDA5D1B0D177D001DA0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E75CDA5E1B0D177D001DA0E5 /* Tavern_TroubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tavern_TroubleTests.swift; sourceTree = "<group>"; };
+		E75CDA681B0D256B001DA0E5 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		E77CD9E11B35CDC800A4503C /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +87,16 @@
 		E75CDA411B0D177D001DA0E5 /* Tavern Trouble */ = {
 			isa = PBXGroup;
 			children = (
-				E75CDA441B0D177D001DA0E5 /* AppDelegate.swift */,
-				E75CDA461B0D177D001DA0E5 /* GameScene.sks */,
+				E75CDA681B0D256B001DA0E5 /* MainMenu.swift */,
 				E75CDA481B0D177D001DA0E5 /* GameScene.swift */,
+				E77CD9E11B35CDC800A4503C /* GameOverScene.swift */,
+				E741FAA81B3762B600048DDF /* RulesScene.swift */,
+				E75CDA461B0D177D001DA0E5 /* GameScene.sks */,
 				E75CDA4A1B0D177D001DA0E5 /* GameViewController.swift */,
 				E75CDA4C1B0D177D001DA0E5 /* Main.storyboard */,
 				E75CDA4F1B0D177D001DA0E5 /* Images.xcassets */,
 				E75CDA511B0D177D001DA0E5 /* LaunchScreen.xib */,
+				E75CDA441B0D177D001DA0E5 /* AppDelegate.swift */,
 				E75CDA421B0D177D001DA0E5 /* Supporting Files */,
 			);
 			path = "Tavern Trouble";
@@ -167,6 +176,7 @@
 				TargetAttributes = {
 					E75CDA3E1B0D177D001DA0E5 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 992557LWQD;
 					};
 					E75CDA571B0D177D001DA0E5 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -219,9 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77CD9E21B35CDC800A4503C /* GameOverScene.swift in Sources */,
 				E75CDA491B0D177D001DA0E5 /* GameScene.swift in Sources */,
 				E75CDA4B1B0D177D001DA0E5 /* GameViewController.swift in Sources */,
 				E75CDA451B0D177D001DA0E5 /* AppDelegate.swift in Sources */,
+				E741FAA91B3762B600048DDF /* RulesScene.swift in Sources */,
+				E75CDA691B0D256B001DA0E5 /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,9 +363,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tavern Trouble/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -360,9 +376,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tavern Trouble/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -419,6 +438,7 @@
 				E75CDA641B0D177D001DA0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E75CDA651B0D177D001DA0E5 /* Build configuration list for PBXNativeTarget "Tavern TroubleTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +447,7 @@
 				E75CDA671B0D177D001DA0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
